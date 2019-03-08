@@ -1,0 +1,23 @@
+{
+  "name": "jest-puppeteer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "jest -c test/jest.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-power-assert": "^3.0.0",
+    "jest": "^24.1.0",
+    "jest-puppeteer": "^4.0.0",
+    "power-assert": "^1.6.1",
+    "puppeteer": "^1.12.2"
+  },
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
